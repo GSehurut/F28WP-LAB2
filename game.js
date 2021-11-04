@@ -38,7 +38,7 @@ function start() {
     score = 0;
     hits.innerHTML = score;
     duration.innerHTML = 0;
-    updateTimer = clearTimeout();
+    updateTimer = clearTimeout()
     nbBees = 1;
 
     //create bear
@@ -46,8 +46,7 @@ function start() {
 
     // Add an event listener to the keypress event.
     document.addEventListener("keydown", moveBear, false);
-    document.getElementById("speedBears").addEventListener("change", setSpeed)
-    document.addEventListener("keydown", )
+    document.getElementById("speedBears").addEventListener("change", setSpeed);
 
     //create new array for bees
     bees = new Array();
@@ -224,9 +223,7 @@ function updateBees() { // update loop for game
     if(Number(score) < 1000){
         updateTimer = setTimeout('updateBees()', period);
     }else{
-        alert("Game is over.You had " + score + " stings")
-        score = "Game Over"
-        hits.innerHTML = score;
+        alert("Game Over!")
         updateTimer = clearTimeout();
     }
 }
