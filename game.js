@@ -35,7 +35,8 @@ function Bear() {
    }
 
 function start() {
-    hits.innerHTML = 0;
+    score = 0;
+    hits.innerHTML = score;
     duration.innerHTML = 0;
     updateTimer = clearTimeout();
     nbBees = 1;
