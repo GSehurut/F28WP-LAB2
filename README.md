@@ -7,4 +7,6 @@ We had two characters on a game board:
 - Bear; controlled by the user through the keyboard key (up, down, left and right)
 - Bees; moves randomly to attack the bear
 
+[Play Bear and Bees](https://gsehurut.github.io/F28WP-LAB2). 
+
 The objective of the player is to minimise the number of stings. The are functions to adjust, the speed of the bees.
