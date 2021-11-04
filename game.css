@@ -7,22 +7,25 @@
 }
 
 #board {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: absolute;
     height: 600px;
     width: 1200px;
-    background-color: rgb(6, 136, 119);
+    background-color: rgb(90, 194, 180);
     align-content: center;
     align-self: center;
 }
 
 #title {
-    background-color: rgb(128, 128, 128);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(255, 249, 249);
     align-content: center;
     align-self: center;
 }
 
 #scores {
-    background-color: rgb(247, 134, 241);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(96, 236, 194);
     align-content: center;
     align-self: center;
 }
