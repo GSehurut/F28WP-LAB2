@@ -38,9 +38,7 @@ function start() {
     hits.innerHTML = 0;
     duration.innerHTML = 0;
     updateTimer = clearTimeout();
-    for( var i = 0; i < bees.length; i++){
-        bees[i].remove();
-    }
+    nbBees = 1;
 
     //create bear
     bear = new Bear();
@@ -296,3 +294,6 @@ function addBee(){
 
 }
 
+function restart(){
+    location.reload();
+}
